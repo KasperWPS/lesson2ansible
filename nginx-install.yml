@@ -2,6 +2,7 @@
 - name: Install NginX
   hosts: nginx
   become: true
+  gather_facts: false
   vars:
     nginx_listen_port: 8080
 
