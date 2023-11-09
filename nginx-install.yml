@@ -22,7 +22,7 @@
       tags:
         - nginx-signkey
 
-    - name: Add nginx repositoty
+    - name: Add nginx repository
       apt_repository:
         repo: deb https://nginx.org/packages/mainline/debian/ bullseye nginx
         state: present
